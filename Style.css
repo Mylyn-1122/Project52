@@ -1,0 +1,70 @@
+h1{
+    padding: 20px;
+    margin-left: 30px;
+    color: #FBFBFF;
+}
+
+h2{
+    color: #FBFBFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2:visited{
+    color: #657ED4
+}
+
+h3{
+    color: #080066;
+}
+
+h4{
+    color: #E4D9FF;
+}
+h4:visited{
+    color: #FBFBFF;
+}
+
+.outside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: #657ED4;
+}
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 7cm;
+}
+
+body{
+    background-color:#0B0136;
+}
+
+.pagelink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.pagelink h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.pagelink:hover h4{
+    opacity: 1;
+}
+
+.pagelink:hover img{
+    opacity:0.3;
+}
